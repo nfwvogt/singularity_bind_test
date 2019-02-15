@@ -1,2 +1,2 @@
 # singularity_bind_test
-bind_test_for_singularity
+bind test for singularity
