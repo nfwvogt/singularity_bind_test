@@ -1,0 +1,13 @@
+BootStrap: docker
+From: ubuntu
+
+%post
+    mkdir /vanilla
+    chmod 1777 /vanilla
+    mkdir /work_safe
+    chmod 1777 /work_safe
+    mkdir /CWD
+    chmod 1777 /CWD
+
+%runscript
+    /bin/bash
